@@ -54,7 +54,7 @@ df = load_data()
 def load_embeddings():
 
     embeddings = np.load(
-        "/content/movie_embeddings.npy"
+        "movie_embeddings.npy"
     )
 
     return embeddings
