@@ -25,7 +25,7 @@ st.set_page_config(
 def load_data():
 
     df = pd.read_csv(
-        "/content/movies_cleaned (1)-1.csv"
+        "movies_cleaned (1)-1.csv"
     )
 
     # Make sure important columns exist
